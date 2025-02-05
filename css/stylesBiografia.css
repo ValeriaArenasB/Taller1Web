@@ -1,0 +1,35 @@
+/* BIOGRAFIA*/
+
+/* table de la biografia */
+.bio-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden; /* para que no se vean las esquinas de las celdas !!*/
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .bio-table th {
+    background-color: #162960; /* fondo azul oscuro en el encabezado*/
+    color: white;
+    font-weight: bold;
+    padding: 1rem;
+    text-align: left;
+  }
+  
+  .bio-table td {
+    padding: 1rem;
+    text-align: left;
+  }
+  
+  .bio-table tbody tr:nth-child(even) {
+    background-color: #ffffff; /* fondo blanco para pares*/
+    color: black;
+  }
+  
+  .bio-table tbody tr:nth-child(odd) {
+    background-color: #adc89b; /* fondo verde para impares*/
+    color: black;
+  }

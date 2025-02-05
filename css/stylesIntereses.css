@@ -1,0 +1,11 @@
+/* INTERESES */
+.interests-section {
+    margin: 2rem 0;
+  }
+  
+  .interests-section h2 {
+    color: #2a2f2a;
+    border-bottom: 3px solid lightblue;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+  }

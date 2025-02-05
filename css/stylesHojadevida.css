@@ -1,0 +1,95 @@
+/* HOJADEVIDA */
+
+.toc { /* (table of contents), para que sea distinta */
+    background: #a1a182c2;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    border: 1px solid #708265;
+  }
+  
+  .toc h2 {
+    color: #ffffff;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 0.5rem;
+  }
+  
+  .toc ul {
+    list-style: none;
+  }
+  
+  .toc a {
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    padding: 0.5rem 0;
+    transition: color 0.3s ease;
+  }
+  
+  .toc a:hover {
+    color: #000000;
+    font-weight: bold;
+  }
+  
+  .cv-section { /* (toda la parte del CV. es decir, las secciones en si) */
+    margin: 2rem 0;
+  }
+  
+  .cv-section h2 {
+    color: #2a2f2a;
+    border-bottom: 3px solid lightblue;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .subsection {
+    background: linear-gradient(to left, #c6c6aac2, #fff); /* para que sea un degradado */
+    padding: 1.5rem;
+    border-radius: 6px;
+    border: 1px solid lightblue;
+    margin: 1rem 0;
+  }
+  
+  .subsection h3 {
+    color: #2a2f2a;
+    margin-bottom: 1rem;
+  }
+  
+  .bullet-list {
+    list-style: none;
+    padding-left: 1.5rem;
+  }
+  
+  .bullet-list li {
+    position: relative;
+    padding: 0.5rem 0;
+  }
+  
+  .bullet-list li::before {
+    content: "•"; 
+    color: #708265;
+    position: absolute;
+    left: -1.5rem;
+    font-weight: bold;
+  }
+  
+  .numbered-list {
+    list-style: none;
+    counter-reset: item;
+    padding-left: 1.5rem;
+  }
+  
+  .numbered-list li {
+    position: relative;
+    padding: 0.5rem 0;
+  }
+  
+  .numbered-list li::before {
+    content: counter(item) ".";
+    counter-increment: item;
+    color: rgb(17, 108, 160);
+    position: absolute;
+    left: -1.5rem;
+    font-weight: bold;
+  }
